@@ -1,4 +1,4 @@
-# GoJek
+# AngloAmerican
 
 Prerequisite
 ----------------
@@ -43,33 +43,6 @@ from terminal run command,
 
 Test Result
 ------------------------
-cd test-output
+target/cucumber-html-reports/overview-features.html
 
-open ExtentReport.html
 
-This will open test result in browser.
-
-Project Structure
--------------------------
-	qa
-	|
-	|-- src/test/java
-	|		- common
-	|			- Common.java
-	|			- ReportHelper.java
-	|		- pages
-	|			- BasePage.java
-	|		- test
-	|			- BaseTest.java
-	|			- Tests.java
-	|-- config											
-	|		- application.properties
-	|   	- config.xml
-	|-- Data
-	|		- Data.yml
-	|-- test-output
-	|		- ScreenShots
-	|		- ExtentReport.html
-	|-- pom.xml
-	|-- testng.xml
-	|-- README.md	
