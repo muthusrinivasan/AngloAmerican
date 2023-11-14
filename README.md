@@ -39,8 +39,6 @@ from terminal run command,
 
 "mvn install" to install all dependencies.
 
-"mvn -test" to run test.
-
 Test Result
 ------------------------
 target/cucumber-html-reports/overview-features.html
