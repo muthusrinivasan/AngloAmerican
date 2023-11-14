@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AngloAmerican" parallel="tests" thread-count="2">
+<!-- 	 parallel="tests" thread-count="2" -->
+	<test name="Chrome Tests">
+	  <parameter name = "browser" value="chrome"/> 
+		<classes>
+			<class name="test.Tests" />
+		</classes>
+	</test>
+</suite>
