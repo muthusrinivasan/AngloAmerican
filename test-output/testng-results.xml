@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="AngloAmerican" duration-ms="14142" started-at="2023-11-14T09:36:24 SGT" finished-at="2023-11-14T09:36:38 SGT">
+  <suite name="AngloAmerican" duration-ms="17359" started-at="2023-11-14T13:05:45 SGT" finished-at="2023-11-14T13:06:02 SGT">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Tests@77ec78b9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Chrome Tests" duration-ms="14142" started-at="2023-11-14T09:36:24 SGT" finished-at="2023-11-14T09:36:38 SGT">
+    <test name="Chrome Tests" duration-ms="17359" started-at="2023-11-14T13:05:45 SGT" finished-at="2023-11-14T13:06:02 SGT">
       <class name="test.Tests">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.Tests@77ec78b9]" name="setUpClass" is-config="true" duration-ms="156" started-at="2023-11-14T09:36:24 SGT" finished-at="2023-11-14T09:36:24 SGT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.Tests@77ec78b9]" name="setUpClass" is-config="true" duration-ms="221" started-at="2023-11-14T13:05:45 SGT" finished-at="2023-11-14T13:05:45 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="InitiateBrowser(java.lang.String)[pri:0, instance:test.Tests@77ec78b9]" name="InitiateBrowser" is-config="true" duration-ms="8928" started-at="2023-11-14T09:36:24 SGT" finished-at="2023-11-14T09:36:33 SGT">
+        <test-method status="PASS" signature="InitiateBrowser(java.lang.String)[pri:0, instance:test.Tests@77ec78b9]" name="InitiateBrowser" is-config="true" duration-ms="7119" started-at="2023-11-14T13:05:45 SGT" finished-at="2023-11-14T13:05:52 SGT">
           <params>
             <param index="0">
               <value>
@@ -25,62 +25,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateBrowser -->
-        <test-method status="PASS" signature="InitiateBrowser(java.lang.String)[pri:0, instance:test.Tests@77ec78b9]" name="InitiateBrowser" is-config="true" duration-ms="8119" started-at="2023-11-14T09:36:24 SGT" finished-at="2023-11-14T09:36:32 SGT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Tests@77ec78b9]" name="runScenario" duration-ms="9352" started-at="2023-11-14T13:05:52 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-14T13:06:02 SGT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InitiateBrowser -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Tests@77ec78b9]" name="runScenario" duration-ms="5227" started-at="2023-11-14T09:36:32 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-14T09:36:38 SGT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Add sale product to cart and verify total amount"]]>
+                <![CDATA["To verify sucessful order as Guest"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Checkout sales product and verify the cart"]]>
+                <![CDATA["End to end order scenario as Guest"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Tests@77ec78b9]" name="runScenario" duration-ms="2189" started-at="2023-11-14T09:36:33 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-14T09:36:35 SGT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["To verify the filter in home page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Verify filter functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="CloseSession()[pri:0, instance:test.Tests@77ec78b9]" name="CloseSession" is-config="true" duration-ms="206" started-at="2023-11-14T09:36:35 SGT" finished-at="2023-11-14T09:36:36 SGT">
+        <test-method status="PASS" signature="CloseSession()[pri:0, instance:test.Tests@77ec78b9]" name="CloseSession" is-config="true" duration-ms="237" started-at="2023-11-14T13:06:02 SGT" finished-at="2023-11-14T13:06:02 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseSession -->
-        <test-method status="PASS" signature="CloseSession()[pri:0, instance:test.Tests@77ec78b9]" name="CloseSession" is-config="true" duration-ms="237" started-at="2023-11-14T09:36:38 SGT" finished-at="2023-11-14T09:36:38 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseSession -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.Tests@77ec78b9]" name="tearDownClass" is-config="true" duration-ms="177" started-at="2023-11-14T09:36:38 SGT" finished-at="2023-11-14T09:36:38 SGT">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.Tests@77ec78b9]" name="tearDownClass" is-config="true" duration-ms="176" started-at="2023-11-14T13:06:02 SGT" finished-at="2023-11-14T13:06:02 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="EndReport()[pri:0, instance:test.Tests@77ec78b9]" name="EndReport" is-config="true" duration-ms="1" started-at="2023-11-14T09:36:38 SGT" finished-at="2023-11-14T09:36:38 SGT">
+        <test-method status="PASS" signature="EndReport()[pri:0, instance:test.Tests@77ec78b9]" name="EndReport" is-config="true" duration-ms="2" started-at="2023-11-14T13:06:02 SGT" finished-at="2023-11-14T13:06:02 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndReport -->

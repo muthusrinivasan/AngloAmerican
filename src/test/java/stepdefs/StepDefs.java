@@ -30,7 +30,6 @@ public class StepDefs {
 		hp = getPageObj.getHomePageObject();
 	}
 
-	static ExtentTest logger;
 
 	@Given("^Add sale product \"(.*)\"")
 	public void addProducts(String pName) throws IOException {		

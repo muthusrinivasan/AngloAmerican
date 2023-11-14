@@ -16,7 +16,7 @@ import io.cucumber.testng.CucumberOptions;
 
 public class Tests extends BaseTest  {
     @Override
-    @DataProvider(parallel = true)
+    @DataProvider(parallel = false)
    public Object[][] scenarios() {
         return super.scenarios();
     }

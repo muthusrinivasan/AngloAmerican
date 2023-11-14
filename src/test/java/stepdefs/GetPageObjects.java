@@ -14,6 +14,10 @@ public class GetPageObjects {
 	public GetPageObjects() {
 		uObj = new Utilities(DriverFactory.getDriver());
 	}
+	
+	public Utilities getUobj() {
+		return uObj;
+	}
 
 	public HomePage getHomePageObject() {
 		if (homePage == null) {

@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-11-14T01:36:33.231Z",
+        "start_timestamp": "2023-11-14T05:10:14.812Z",
         "line": 4,
         "name": "Add sale product to cart and verify total amount",
         "description": "",
@@ -11,6 +11,7 @@
         "after": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -23,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2469000000,
+              "duration": 2654000000,
               "status": "passed"
             },
             "line": 5,
@@ -41,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 1901000000,
+              "duration": 2313000000,
               "status": "passed"
             },
             "line": 6,
@@ -59,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 583000000,
+              "duration": 585000000,
               "status": "passed"
             },
             "line": 7,
@@ -94,7 +95,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-11-14T01:36:33.798Z",
+        "start_timestamp": "2023-11-14T05:10:28.776Z",
         "line": 4,
         "name": "To verify the filter in home page",
         "description": "",
@@ -102,7 +103,6 @@
         "after": [
           {
             "result": {
-              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -115,7 +115,7 @@
         "steps": [
           {
             "result": {
-              "duration": 686000000,
+              "duration": 299000000,
               "status": "passed"
             },
             "line": 5,
@@ -133,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 1250000000,
+              "duration": 1085000000,
               "status": "passed"
             },
             "line": 6,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 104000000,
+              "duration": 45000000,
               "status": "passed"
             },
             "line": 7,
@@ -169,7 +169,7 @@
           },
           {
             "result": {
-              "duration": 111000000,
+              "duration": 72000000,
               "status": "passed"
             },
             "line": 8,
@@ -198,6 +198,121 @@
     "id": "verify-filter-functionality",
     "keyword": "Feature",
     "uri": "file:target/test-classes/Feature/verify_filter.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-14T05:10:37.467Z",
+        "line": 4,
+        "name": "To verify sucessful order as Guest",
+        "description": "",
+        "id": "end-to-end-order-scenario-as-guest;to-verify-sucessful-order-as-guest",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.StepDefs.embedsc(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3109000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add product \"Skinsheen Bronzer Stick\" and checkout",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Skinsheen Bronzer Stick",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.StepDefs2.addProducts(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 936000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I choose continue as \"guest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "guest",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefs.StepDefs2.selectGuest(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3625000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fill the user details",
+            "match": {
+              "location": "stepdefs.StepDefs2.fillUserDetails()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I confirm order",
+            "match": {
+              "location": "stepdefs.StepDefs2.confirmOrder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1631000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the confirm message \" Your Order Has Been Processed!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " Your Order Has Been Processed!",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefs.StepDefs2.verifyConfirmMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@chrome"
+          }
+        ]
+      }
+    ],
+    "name": "End to end order scenario as Guest",
+    "description": "",
+    "id": "end-to-end-order-scenario-as-guest",
+    "keyword": "Feature",
+    "uri": "file:target/test-classes/Feature/verify_order_success.feature",
     "tags": []
   }
 ]
