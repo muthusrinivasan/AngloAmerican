@@ -33,15 +33,9 @@ public class HomePage {
 		utilObj.WaitForElement(specialButton).click();
 	}
 	
-	public void addProduct(int numberofProduct) {
-		int counter = 0;
-		while(counter < numberofProduct) {
-			WebElement elm = utilObj.WaitForElements(saleProduct1).get(counter);
-			if(elm.isEnabled()) {
-				elm.click();
-			}
-			counter++;
-		}
+	public void addProduct(String nameOfProduct) {	
+		By elmPath = By.xpath(".//a[@title='"+nameOfProduct+"']/ancestor::div[@class='fixed_wrapper']/following-sibling::div//a[@class='productcart']");	
+		utilObj.WaitForElement(elmPath).click();
 
 	}
 	

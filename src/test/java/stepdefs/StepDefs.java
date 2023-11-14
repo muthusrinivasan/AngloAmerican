@@ -32,10 +32,10 @@ public class StepDefs {
 
 	static ExtentTest logger;
 
-	@Given("^Add two sale product to cart$")
-	public void addProducts() throws IOException {		
+	@Given("^Add sale product \"(.*)\"")
+	public void addProducts(String pName) throws IOException {		
 		hp.clickSpecials();
-		hp.addProduct(2);
+		hp.addProduct(pName);
 		cp.clickCart();	
 	}
 	

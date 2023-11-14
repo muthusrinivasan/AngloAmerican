@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="AngloAmerican" duration-ms="13091" started-at="2023-11-14T02:01:52 SGT" finished-at="2023-11-14T02:02:05 SGT">
+  <suite name="AngloAmerican" duration-ms="12504" started-at="2023-11-14T02:18:20 SGT" finished-at="2023-11-14T02:18:32 SGT">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Tests@2a17b7b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Chrome Tests" duration-ms="13091" started-at="2023-11-14T02:01:52 SGT" finished-at="2023-11-14T02:02:05 SGT">
+    <test name="Chrome Tests" duration-ms="12504" started-at="2023-11-14T02:18:20 SGT" finished-at="2023-11-14T02:18:32 SGT">
       <class name="test.Tests">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.Tests@2a17b7b6]" name="setUpClass" is-config="true" duration-ms="246" started-at="2023-11-14T02:01:52 SGT" finished-at="2023-11-14T02:01:52 SGT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.Tests@2a17b7b6]" name="setUpClass" is-config="true" duration-ms="255" started-at="2023-11-14T02:18:20 SGT" finished-at="2023-11-14T02:18:20 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="InitiateBrowser(java.lang.String)[pri:0, instance:test.Tests@2a17b7b6]" name="InitiateBrowser" is-config="true" duration-ms="7401" started-at="2023-11-14T02:01:53 SGT" finished-at="2023-11-14T02:02:00 SGT">
+        <test-method status="PASS" signature="InitiateBrowser(java.lang.String)[pri:0, instance:test.Tests@2a17b7b6]" name="InitiateBrowser" is-config="true" duration-ms="9488" started-at="2023-11-14T02:18:20 SGT" finished-at="2023-11-14T02:18:30 SGT">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateBrowser -->
-        <test-method status="PASS" signature="InitiateBrowser(java.lang.String)[pri:0, instance:test.Tests@2a17b7b6]" name="InitiateBrowser" is-config="true" duration-ms="7995" started-at="2023-11-14T02:01:53 SGT" finished-at="2023-11-14T02:02:01 SGT">
+        <test-method status="PASS" signature="InitiateBrowser(java.lang.String)[pri:0, instance:test.Tests@2a17b7b6]" name="InitiateBrowser" is-config="true" duration-ms="7312" started-at="2023-11-14T02:18:20 SGT" finished-at="2023-11-14T02:18:27 SGT">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateBrowser -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Tests@2a17b7b6]" name="runScenario" duration-ms="2901" started-at="2023-11-14T02:02:00 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-14T02:02:03 SGT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Tests@2a17b7b6]" name="runScenario" duration-ms="4113" started-at="2023-11-14T02:18:27 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-14T02:18:31 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add sale product to cart and verify total amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checkout sales product and verify the cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Tests@2a17b7b6]" name="runScenario" duration-ms="2175" started-at="2023-11-14T02:18:30 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-14T02:18:32 SGT">
           <params>
             <param index="0">
               <value>
@@ -52,35 +68,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.Tests@2a17b7b6]" name="runScenario" duration-ms="4279" started-at="2023-11-14T02:02:01 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-14T02:02:05 SGT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Checkout of sale prodduct"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Sale product checkout"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="CloseSession()[pri:0, instance:test.Tests@2a17b7b6]" name="CloseSession" is-config="true" duration-ms="249" started-at="2023-11-14T02:02:03 SGT" finished-at="2023-11-14T02:02:03 SGT">
+        <test-method status="PASS" signature="CloseSession()[pri:0, instance:test.Tests@2a17b7b6]" name="CloseSession" is-config="true" duration-ms="208" started-at="2023-11-14T02:18:31 SGT" finished-at="2023-11-14T02:18:32 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseSession -->
-        <test-method status="PASS" signature="CloseSession()[pri:0, instance:test.Tests@2a17b7b6]" name="CloseSession" is-config="true" duration-ms="190" started-at="2023-11-14T02:02:05 SGT" finished-at="2023-11-14T02:02:05 SGT">
+        <test-method status="PASS" signature="CloseSession()[pri:0, instance:test.Tests@2a17b7b6]" name="CloseSession" is-config="true" duration-ms="208" started-at="2023-11-14T02:18:32 SGT" finished-at="2023-11-14T02:18:32 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseSession -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.Tests@2a17b7b6]" name="tearDownClass" is-config="true" duration-ms="105" started-at="2023-11-14T02:02:05 SGT" finished-at="2023-11-14T02:02:05 SGT">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.Tests@2a17b7b6]" name="tearDownClass" is-config="true" duration-ms="127" started-at="2023-11-14T02:18:32 SGT" finished-at="2023-11-14T02:18:32 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="EndReport()[pri:0, instance:test.Tests@2a17b7b6]" name="EndReport" is-config="true" duration-ms="1" started-at="2023-11-14T02:02:05 SGT" finished-at="2023-11-14T02:02:05 SGT">
+        <test-method status="PASS" signature="EndReport()[pri:0, instance:test.Tests@2a17b7b6]" name="EndReport" is-config="true" duration-ms="1" started-at="2023-11-14T02:18:32 SGT" finished-at="2023-11-14T02:18:32 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndReport -->

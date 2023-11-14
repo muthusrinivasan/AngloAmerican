@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-11-13T18:02:01.570Z",
+        "start_timestamp": "2023-11-14T01:09:28.559Z",
         "line": 4,
-        "name": "Checkout of sale prodduct",
+        "name": "Add sale product to cart and verify total amount",
         "description": "",
-        "id": "sale-product-checkout;checkout-of-sale-prodduct",
+        "id": "checkout-sales-product-and-verify-the-cart;add-sale-product-to-cart-and-verify-total-amount",
         "after": [
           {
             "result": {
@@ -23,22 +23,46 @@
         "steps": [
           {
             "result": {
-              "duration": 3267000000,
+              "duration": 4083000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "Add two sale product to cart",
+            "name": "Add sale product \"Absolue Eye Precious Cells\"",
             "match": {
-              "location": "stepdefs.StepDefs.addProducts()"
+              "arguments": [
+                {
+                  "val": "Absolue Eye Precious Cells",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefs.StepDefs.addProducts(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 585000000,
+              "duration": 2420000000,
               "status": "passed"
             },
             "line": 6,
+            "name": "Add sale product \"ck one Summer 3.4 oz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ck one Summer 3.4 oz",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefs.StepDefs.addProducts(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 599000000,
+              "status": "passed"
+            },
+            "line": 7,
             "name": "verify the total amount is \"$118.00\"",
             "match": {
               "arguments": [
@@ -59,9 +83,9 @@
         ]
       }
     ],
-    "name": "Sale product checkout",
+    "name": "Checkout sales product and verify the cart",
     "description": "",
-    "id": "sale-product-checkout",
+    "id": "checkout-sales-product-and-verify-the-cart",
     "keyword": "Feature",
     "uri": "file:target/test-classes/Feature/checkout_sale_product.feature",
     "tags": []
@@ -70,7 +94,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-11-13T18:02:01.570Z",
+        "start_timestamp": "2023-11-14T01:09:28.069Z",
         "line": 4,
         "name": "To verify the filter in home page",
         "description": "",
@@ -78,7 +102,7 @@
         "after": [
           {
             "result": {
-              "duration": 26000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -91,7 +115,7 @@
         "steps": [
           {
             "result": {
-              "duration": 603000000,
+              "duration": 756000000,
               "status": "passed"
             },
             "line": 5,
@@ -109,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 1070000000,
+              "duration": 1346000000,
               "status": "passed"
             },
             "line": 6,
@@ -127,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 57000000,
+              "duration": 48000000,
               "status": "passed"
             },
             "line": 7,
@@ -145,7 +169,7 @@
           },
           {
             "result": {
-              "duration": 118000000,
+              "duration": 133000000,
               "status": "passed"
             },
             "line": 8,
